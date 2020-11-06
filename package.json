@@ -1,0 +1,23 @@
+{
+  "name": "bestcom-devops-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "geckodriver": "^1.19.1",
+    "selenium-webdriver": "3.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gosplit/bestcom-devops-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gosplit/bestcom-devops-workshop/issues"
+  },
+  "homepage": "https://github.com/gosplit/bestcom-devops-workshop#readme"
+}
