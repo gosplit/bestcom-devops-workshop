@@ -2,9 +2,9 @@
   "name": "bestcom-devops-workshop",
   "version": "1.0.0",
   "description": "",
-  "main": "demo.js",
+  "main": "cucumber.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "export PATH=./node_modules/geckodriver:$PATH;./node_modules/.bin/cucumber-js -f json > cucumber.json"
   },
   "dependencies": {
     "geckodriver": "^1.19.1",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/gosplit/bestcom-devops-workshop/issues"
   },
-  "homepage": "https://github.com/gosplit/bestcom-devops-workshop#readme"
+  "homepage": "https://github.com/gosplit/bestcom-devops-workshop#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0-rc.0"
+  }
 }
