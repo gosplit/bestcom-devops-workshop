@@ -7,4 +7,4 @@ Feature: UI Operations
     Examples:
            | url                       | search text | title                      |
            | https://www.google.com/ncr | webdriver   | webdriver - Google Search |
-#           | https://www.google.com/ncr | webdriver   | 錯誤示範這一步會失敗      |
+           | https://www.google.com/ncr | webdriver   | 錯誤示範這一步會失敗      |
